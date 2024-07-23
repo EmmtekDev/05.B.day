@@ -205,12 +205,12 @@ nav li a {
     }
 
     .about {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         padding: 20px;
     }
 
     .images {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         width: 100%;
     }
 
