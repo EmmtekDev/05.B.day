@@ -176,3 +176,50 @@ nav li a {
 .gallery img{
     width: 250px;
 }
+@media (max-width: 600px) {
+    .container{
+        height: 100vh;
+    }
+    .body, .about, .gallery {
+        height: auto;
+    }
+
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        display: none;
+    }
+
+    .main ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .body h1 {
+        font-size: 3rem;
+    }
+
+    .body h3 {
+        font-size: 20px;
+    }
+
+    .about {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .images {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .images .pics {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+}
